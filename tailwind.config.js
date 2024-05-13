@@ -14,32 +14,20 @@ module.exports = {
         },
       },
       animation: {
-        dropBounce: "dropBounce 1s ease-in-out infinite",
-        slideIn: "slideIn 5s ease-in-out infinite",
         fadeIn: "fadeIn 2s ease-in-out ",
       },
       keyframes: {
-        drop: {
-          "0%, 100%": { transform: "rotate(-3deg)" },
-          "50%": { transform: "rotate(3deg)" },
-        },
-
-        dropBounce: {
-          "0%": { top: -"300px" },
-          "40%": { top: "0px" },
-          "70%": { top: -"5px" },
-          "100%": { top: "0px" },
-        },
-
-        slideIn: {
-          "0%": { left: -"200px" },
-          "100%": { left: "0px" },
-        },
-
         fadeIn: {
           "0%": { opacity: 0 },
           "100%": { opacity: 1 },
         },
+      },
+      dropShadow: {
+        "3xl": "0 35px 35px rgba(0, 0, 0, 0.25)",
+        "4xl": [
+          "0 35px 35px rgba(0, 0, 0, 0.25)",
+          "0 45px 65px rgba(0, 0, 0, 0.15)",
+        ],
       },
     },
   },
