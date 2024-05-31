@@ -6,9 +6,11 @@ module.exports = {
       colors: {
         brand: {
           offRed: "#FD0000ff",
+          lightRed: "#FB0909",
+          gradeRed: "#CD1B1B",
           darkGray: "#333333ff",
           black: "#000000ff",
-          gray: "#505050ff",
+          gray: "#504747",
           white: "#FFFFFFff",
           night: "#0C0C0Cff",
           platinum: "#E3E3E3ff",
